@@ -7,7 +7,7 @@ sample nuget package repository
 
 ### 1. Add Nuget cofiguration to NuGet.Config
 
- #### 1.1 > dotnet nuget add source --username USERNAME --password TOKEN --store-password-in-clear-text --name github "https://nuget.pkg.github.com/tidlor-ins/index.json"
+ #### 1.1 > dotnet nuget add source --username USERNAME --password TOKEN --store-password-in-clear-text --name github "https://nuget.pkg.github.com/nuttapornk/index.json"
 
 ```xml
 .n
@@ -43,10 +43,10 @@ sample nuget package repository
 2. Open OctocatApp.csproj identify parameter is exist
 ```xml
     <PackageId>OctocatApp</PackageId>
-    <Authors>Octocat</Authors>
-    <Company>tidlor-ins</Company>
+    <Authors>Nuttaporn Kunsin</Authors>
+    <Company></Company>
     <PackageDescription>This package adds an Octocat!</PackageDescription>
-    <RepositoryUrl>https://github.com/tidlor-ins/Octocat</RepositoryUrl>
+    <RepositoryUrl>https://github.com/nuttapornk/Octocat</RepositoryUrl>
 ```
 3. Change <Version> and pack release 
 ```cmd
