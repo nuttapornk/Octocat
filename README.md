@@ -16,7 +16,7 @@ sample nuget package repository
 	<packageSources>
 		<clear />
 		<add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
-		<add key="github" value="https://nuget.pkg.github.com/tidlor-ins/index.json" />
+		<add key="github" value="https://nuget.pkg.github.com/nuttapornk/index.json" />
 	</packageSources>
 	<packageSourceCredentials>
 		<github>
@@ -39,7 +39,7 @@ sample nuget package repository
 
 ## TEST (Optional)
 
-1. Pull Code from GITHUB REPOSITORY [Octocat](https://github.com/tidlor-ins/Octocat.git)
+1. Pull Code from GITHUB REPOSITORY [Octocat](https://github.com/nuttapornk/Octocat.git)
 2. Open OctocatApp.csproj identify parameter is exist
 ```xml
     <PackageId>OctocatApp</PackageId>
